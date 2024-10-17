@@ -7,26 +7,51 @@
     { width: 30%; } 
 }
 
-p {   
+.boxmargin {
+    width:40%;
+    border: 0.5em solid black;
+    padding: 0.25em;
+    background-color: aliceblue;
+}
+
+.default {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1  {   
-    font-family: Arial, Helvetica, sans-serif;
+p {
+    font-size:1.5em;
 }
 
-h2  {   
-    font-family: Arial, Helvetica, sans-serif;
+a {
+    font-size:1.5em;
 }
 
-h3   {   
-    font-family: Arial, Helvetica, sans-serif;
+a:link {
+    color: red;
+}
+a:visited {
+    color:red;
 }
 
-strong  {   
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+    font-size:2em;
 }
 
-a  {   
-    font-family: Arial, Helvetica, sans-serif;
+h3 {
+    font-size:1.75em;
+}
+
+.line {
+    padding:0.1%;
+    background-color:black;
+
+}
+
+.backtomain {
+    margin-left: 36rem;
+    text-align:center;
+    width:20%;
+    border: 0.5em solid black;
+    padding: 0.875em;
+    background-color: aliceblue;
 }
