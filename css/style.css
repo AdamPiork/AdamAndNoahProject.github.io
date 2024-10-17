@@ -10,6 +10,7 @@
 .boxmargin {
     width:40%;
     border: 0.5em solid black;
+    border-radius:2rem;
     padding: 0.25em;
     background-color: aliceblue;
 }
@@ -51,7 +52,8 @@ h3 {
     margin-left: 36rem;
     text-align:center;
     width:20%;
-    border: 0.5em solid black;
-    padding: 0.875em;
+    border: 0.5rem solid black;
+    border-radius:2rem;
+    padding: 0.875rem;
     background-color: aliceblue;
 }
