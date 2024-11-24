@@ -7,15 +7,26 @@
     { width: 30%; } 
 }
 
+.center-text{
+    h1 {text-align:center;}
+    p  {text-align:center;}
+    a  {text-align:center;}
+    input {text-align:center;}
+    label {text-align:center;}
+    form {text-align:center;}
+}
+
 .boxmargin {
     width:40%;
-    border: 0.5em solid black;
-    padding: 0.25em;
+    border: 0.5vw solid black;
+    border-radius:2vw;
+    padding: 0.25vw;
     background-color: aliceblue;
 }
 
 .default {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(176, 250, 250);
 }
 
 p {
@@ -41,6 +52,14 @@ h3 {
     font-size:1.75em;
 }
 
+label {
+    font-size:1.5em;
+}
+
+input {
+    font-size:1.5em;
+}
+
 .line {
     padding:0.1%;
     background-color:black;
@@ -48,10 +67,89 @@ h3 {
 }
 
 .backtomain {
-    margin-left: 36rem;
+    margin-left: 38.5vw;
     text-align:center;
     width:20%;
-    border: 0.5em solid black;
-    padding: 0.875em;
+    border: 0.5vw solid black;
+    border-radius:2vw;
+    padding: 0.875vw;
     background-color: aliceblue;
+}
+
+.termsandcond {
+    font-size:0.5rem;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.submitbtn{
+    transition-duration: 0.5s;
+    border-color:#333;
+}
+
+.submitbtn:hover{
+    background-color:rgb(245, 188, 114);
+    color:white;
+    box-shadow: 0vw 0.8vw 1.7vw 0vw rgba(0,0,0,0.9);
+}
+
+#formBox{
+    background-color: rgb(233, 215, 178);
+    margin: auto;
+    text-align: center;
+    flex-wrap:wrap;
+    width:40%;
+    height:50%;
+    border:solid;
+    border-radius:15%
+}
+
+.dropdownbtn {
+    background-color: rgba(95,158,160,0);
+    font-size: 1.5em;
+    border: none;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color:rgba(95, 158, 160,0.5);
+    border-radius: 0.6vw;
+  }
+  
+/*drop down link-hidden */
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 15vw;
+    box-shadow: 0vw 0.8vw 1.7vw 0vw rgba(0,0,0,0.9);
+    z-index: 1;
+    border-radius: 0.5vw;
+  }
+  
+/*for links inside dropdown*/
+.dropdown-links a {
+    color: black;
+    padding: 1.2vw 1.7vw;
+    text-decoration: none;
+    display: block;
+  }
+  
+/*dropdown link box background*/
+.dropdown-links a:hover {
+    background-color: #ddd;
+}
+  
+/*show dropdown on hover*/
+.dropdown:hover .dropdown-links {
+    display: block;
+}
+  
+/*background colour of dropdown box when hovered */
+.dropdown:hover .dropdownbtn {
+    background-color: rgba(65, 122, 124, 0.9);
+    border-radius:0.6vw;
 }
