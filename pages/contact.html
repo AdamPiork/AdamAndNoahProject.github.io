@@ -7,6 +7,7 @@
     <title>Contact Lucas Snow</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <style>
+        span {text-align:center;}
         h1 {text-align:center;}
         h3 {text-align:center;}
         p  {text-align:center;}
@@ -37,14 +38,39 @@
     <h3>Company</h3>
     <p>22 The Alps, Himalayas, Germany</p>
 <br>
+
     <h2>Want us to assist you in making a plan for your adventure?</h2>
-    <p>Simply send a message to <strong> LucasSnowFirm@gmail.com </strong>,</p>
-    <p>with your budget, destinations, and phone number</p>
-    <p>and we, will handle the rest</p>
-<br><br>
+    <p>Simply <strong>click</strong> the button<strong> under</strong> this text</p>
+    <p>with your contact information</p>
+    <p>and we, will handle the rest</p><br>
+    <button alt="open form button" class="clickington" onclick="openNav()">Click on me to start the form</button>
+<section>
+    <div id="myNav" class="overlay">
+        <button alt="close form button" class="closebutton" onclick="closeNav()">&times;</button>
+        <div class="overlay-content">
+            <h2>Message for Lucas Snow</h2>
+
+            <form onsubmit="return validateForm()">
+            <label for="firstName" class="underline">First name:*</label><br>
+            <input type="text" id="firstName" name="firstName" required><br>
+            <label for="lastName" class="underline">Last name:*</label><br>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+            <label for="email" class="underline">Email:*</label><br>
+            <input type="email" id="emailInput" name="email" placeholder="example@example.com" required><br><br>
+            <label for="telNumber" class="underline">Telephone Number:*</label><br>
+            <input type="tel" id="telNumber" name="telNumber" placeholder="eg. 1234567890"><br><br>
+            <label for="message" class="underline">What is your message?</label><br>
+            <textarea id="message" name="message" rows="10" cols="300"></textarea><br><br>
+            <input alt="submit form button" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</section>
+<br><br><br>
     <div style="text-align: center;" class="backtomain">
         <strong><a href="../index.html" alt="link to the main page at the bottom of the screen"> Back to Main</a></strong>
     </div>
-    
+<script src="../javascript/jsscript.js">
+</script>
 </body>
 </html>
